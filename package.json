@@ -1,0 +1,26 @@
+{
+  "name": "nostr-helloworld",
+  "version": "0.0.1",
+  "description": "nostr-helloworld",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostrapps/helloworld.git"
+  },
+  "keywords": [
+    "nostr",
+    "app"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nostrapps/helloworld/issues"
+  },
+  "homepage": "https://github.com/nostrapps/helloworld#readme",
+  "dependencies": {
+  }
+}
