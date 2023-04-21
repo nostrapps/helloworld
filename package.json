@@ -1,6 +1,6 @@
 {
   "name": "nostr-helloworld",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nostr-helloworld",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,5 @@
     "url": "https://github.com/nostrapps/helloworld/issues"
   },
   "homepage": "https://github.com/nostrapps/helloworld#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
