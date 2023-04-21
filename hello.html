@@ -47,7 +47,12 @@
         const resultElement = document.getElementById('result')
         try {
           const publicKey = await window.nostr.getPublicKey()
-          resultElement.textContent = `Public Key: ${publicKey}`
+          const link = document.createElement('a')
+          link.href = `https://iris.to/${publicKey}`
+          link.target = '_blank'
+          link.textContent = `Public Key: ${publicKey}`
+          resultElement.innerHTML = ''
+          resultElement.appendChild(link)
         } catch (error) {
           resultElement.textContent = `Error: ${error.message}`
         }
