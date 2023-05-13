@@ -48,7 +48,7 @@
         try {
           const publicKey = await window.nostr.getPublicKey()
           const link = document.createElement('a')
-          link.href = `https://iris.to/${publicKey}`
+          link.href = `https://nostr.social/${publicKey}`
           link.target = '_blank'
           link.textContent = `Public Key: ${publicKey}`
           resultElement.innerHTML = ''
