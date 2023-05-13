@@ -1,6 +1,6 @@
 {
   "name": "nostr-helloworld",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "nostr-helloworld",
   "main": "index.js",
   "scripts": {
