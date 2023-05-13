@@ -55,6 +55,11 @@
           resultElement.appendChild(link)
         } catch (error) {
           resultElement.textContent = `Error: ${error.message}`
+          document.querySelector('.result').innerHTML = `
+          <p>Error: Nostr extension not found.</p>
+          <p>Please install a Nostr extension. You can find some options <a href="https://github.com/nostrcg/devguide/wiki/Extensions" target="_blank">here</a>.</p>
+        `
+          document.querySelector('.button').style.display = 'none'
         }
       }
 
